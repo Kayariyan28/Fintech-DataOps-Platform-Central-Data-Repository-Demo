@@ -9,6 +9,8 @@ The system is built to demonstrate **DataOps principles**:
 - **Observability**: Real-time monitoring of pipeline health and metrics.
 - **Value Delivery**: Immediate transformation of raw data into business value (Credit Scores).
 
+![Architecture Diagram](docs/architecture_diagram.png)
+
 ## Key Features
 - **Central Data Repository**: Unified storage (DuckDB) anchoring all data processes.
 - **Multi-Source Ingestion**: Simulates diverse data streams with realistic relationships.
