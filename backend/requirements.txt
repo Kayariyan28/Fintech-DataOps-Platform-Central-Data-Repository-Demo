@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+duckdb
+apscheduler
+faker
+pydantic
+sqlalchemy
+python-multipart

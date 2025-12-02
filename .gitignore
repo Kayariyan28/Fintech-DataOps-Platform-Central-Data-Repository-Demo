@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+backend/data_repository.duckdb
+backend/data_repository.duckdb.wal
+frontend/node_modules/
+frontend/dist/
+.env
