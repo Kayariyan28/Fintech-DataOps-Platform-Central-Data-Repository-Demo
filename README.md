@@ -83,3 +83,4 @@ For a detailed analysis of the business problem, scope, and strategic solution p
 
 ## Product Management
 - **[Product Portfolio](docs/product_management/PRODUCT_PORTFOLIO.md)**: A Notion-style dashboard containing the Product Vision, OKRs, Roadmap, and KPIs.
+- **[Public Product Portfolio (Notion)](https://daffy-leo-e93.notion.site/Fintech-DataOps-Platform-Public-Portfolio-2bdc1fd3d75b8069918fd9d6b7cac4c4?pvs=143)**: The live public product portfolio and roadmap.
