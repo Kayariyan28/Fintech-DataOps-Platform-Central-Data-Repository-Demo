@@ -80,3 +80,6 @@ The system is built to demonstrate **DataOps principles**:
 For a detailed analysis of the business problem, scope, and strategic solution provided by this platform, please refer to:
 - **[Executive Business Report](docs/business_reports/EXECUTIVE_REPORT.md)**: A strategic analysis of the "Value Decay" problem and the DataOps solution.
 - **[Strategic Presentation](docs/business_reports/STRATEGIC_PRESENTATION.md)**: A high-level deck summarizing the ROI and competitive advantage.
+
+## Product Management
+- **[Product Portfolio](docs/product_management/PRODUCT_PORTFOLIO.md)**: A Notion-style dashboard containing the Product Vision, OKRs, Roadmap, and KPIs.
