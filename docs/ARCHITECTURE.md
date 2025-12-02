@@ -6,38 +6,38 @@ This diagram illustrates the flow of data from raw sources through the ingestion
 
 ```mermaid
 graph TD
-    subgraph "Data Sources (Simulation)"
+    subgraph DataSources [Data Sources Simulation]
         CB[Consumer Behavior]
         TX[Transactions]
         PD[Public Data]
         FP[Fintech Partners]
     end
 
-    subgraph "Ingestion Layer"
-        IM[Ingestion Manager (APScheduler)]
-        Kafka[(Simulated Stream/Kafka)]
+    subgraph Ingestion [Ingestion Layer]
+        IM[Ingestion Manager]
+        Kafka[(Simulated Stream Kafka)]
     end
 
-    subgraph "Central Data Repository"
+    subgraph Repository [Central Data Repository]
         DL[(DuckDB Data Lakehouse)]
         Raw[Raw Tables]
         Derived[Derived Tables]
     end
 
-    subgraph "Processing Layer"
+    subgraph Processing [Processing Layer]
         Scoring[Credit Scoring Engine]
         Fraud[Fraud Detection Module]
         DQ[Data Quality Checks]
     end
 
-    subgraph "Serving Layer"
+    subgraph Serving [Serving Layer]
         API[FastAPI Backend]
     end
 
-    subgraph "Frontend Application"
+    subgraph Frontend [Frontend Application]
         Dash[DataOps Dashboard]
         Repo[Data Repository View]
-        Product[Product/Insights View]
+        Product[Product Insights View]
         FraudUI[Fraud Monitor]
     end
 
@@ -73,23 +73,23 @@ The DataOps architecture focuses on the operational aspects of the data pipeline
 
 ```mermaid
 graph LR
-    subgraph "Development"
+    subgraph Development [Development]
         Code[Code Changes]
         Test[Unit Tests]
     end
 
-    subgraph "Orchestration"
+    subgraph Orchestration [Orchestration]
         Sched[Scheduler]
         Trigger[Job Triggers]
     end
 
-    subgraph "Observability"
+    subgraph Observability [Observability]
         Logs[Logging]
         Metrics[Pipeline Metrics]
-        Alerts[Fraud/Error Alerts]
+        Alerts[Fraud Error Alerts]
     end
 
-    subgraph "Quality Gate"
+    subgraph QualityGate [Quality Gate]
         Valid[Schema Validation]
         Logic[Business Logic Checks]
     end
