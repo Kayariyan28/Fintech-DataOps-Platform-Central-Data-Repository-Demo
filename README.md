@@ -1,3 +1,5 @@
+![Fintech DataOps Platform](docs/repo_header.png)
+
 # Fintech DataOps Platform & Central Data Repository
 
 ## Overview
