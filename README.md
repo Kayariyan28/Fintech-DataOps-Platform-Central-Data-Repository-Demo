@@ -75,3 +75,8 @@ The system is built to demonstrate **DataOps principles**:
 ## Documentation
 - [System Architecture](docs/ARCHITECTURE.md)
 - [DataOps Strategy](docs/DATAOPS_STRATEGY.md)
+
+## Business Solution & Reporting
+For a detailed analysis of the business problem, scope, and strategic solution provided by this platform, please refer to:
+- **[Executive Business Report](docs/business_reports/EXECUTIVE_REPORT.md)**: A McKinsey-style analysis of the "Value Decay" problem and the DataOps solution.
+- **[Strategic Presentation](docs/business_reports/STRATEGIC_PRESENTATION.md)**: A high-level deck summarizing the ROI and competitive advantage.
